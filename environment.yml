@@ -1,4 +1,4 @@
-# name: template-jupyter-project
+name: cmip6-examples
 channels:
   - chrisroadmap
   - conda-forge
@@ -7,19 +7,16 @@ dependencies:
   - climateforcing
   - jupyter
   - nbstripout
-# you might also want:
-#   - fair
-#   - h5py
-#   - iris
-#   - matplotlib
-#   - numpy
-#   - openpyxl
-#   - pandas
-#   - scipy
-#   - seaborn
-#   - statsmodels
-#   - tqdm
-# if you need to pip install anything:
-#   - pip
-#   - pip:
-#     - thing-to-pip-install
+  - iris
+  - matplotlib
+  - numpy
+  - pandas
+  - tqdm
+  - statsmodels
+  - openscm-units
+  - patsy
+  - scmdata
+  - netcdf-scm
+  - xarray
+  - gcsfs
+  - zarr
