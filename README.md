@@ -11,4 +11,10 @@ First create a new environment from the `yaml` file with the necessary dependenc
 conda env create -f environment.yml
 ```
 
-Then, the notebooks themselves can be accessed from the `notebooks` directory.
+When this is done, activate the environment:
+
+```
+conda activate cmip6-examples
+```
+
+Then, the notebooks themselves can be accessed and run from the `notebooks` directory.
