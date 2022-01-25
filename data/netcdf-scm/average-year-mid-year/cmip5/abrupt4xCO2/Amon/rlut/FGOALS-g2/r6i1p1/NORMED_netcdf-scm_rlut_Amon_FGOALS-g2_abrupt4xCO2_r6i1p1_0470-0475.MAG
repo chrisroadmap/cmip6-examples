@@ -1,0 +1,249 @@
+---- HEADER ----
+
+Date: 2020-11-19 13:52:09
+Contact: Zebedee Nicholls <zebedee.nicholls@climate-energy-college.org>, Jared Lewis <jared.lewis@climate-energy-college.org>, Malte Meinshausen <malte.meinshausen@unimelb.edu.au>
+Source data crunched with: netCDF-SCM v2.0.0rc7+6.g10cfe500 (more info at gitlab.com/netcdf-scm/netcdf-scm)
+File written with: pymagicc v2.0.0rc8+12.g07a7e9f (more info at github.com/openclimatedata/pymagicc)
+
+For more information on the AR6 regions (including mapping the abbrevations to their full names), see: https://github.com/SantanderMetGroup/ATLAS/tree/master/reference-regions, specifically https://github.com/SantanderMetGroup/ATLAS/blob/master/reference-regions/IPCC-WGI-reference-regions-v4_coordinates.csv (paper is at https://doi.org/10.5194/essd-2019-258)
+
+---- METADATA ----
+
+(child) Conventions: CF-1.7
+(child) area_world (m**2): 510009550503936.0
+(child) area_world_ar6_aro (m**2): 5868796430336.0
+(child) area_world_ar6_arp (m**2): 3667432300544.0
+(child) area_world_ar6_ars (m**2): 2817357824000.0
+(child) area_world_ar6_bob (m**2): 1508046897152.0
+(child) area_world_ar6_caf (m**2): 5296489889792.0
+(child) area_world_ar6_car (m**2): 3313616879616.0
+(child) area_world_ar6_cau (m**2): 4211365478400.0
+(child) area_world_ar6_cna (m**2): 3344675651584.0
+(child) area_world_ar6_ean (m**2): 15652625895424.0
+(child) area_world_ar6_eao (m**2): 10140940902400.0
+(child) area_world_ar6_eas (m**2): 9338670841856.0
+(child) area_world_ar6_eau (m**2): 1968660758528.0
+(child) area_world_ar6_eca (m**2): 2870964944896.0
+(child) area_world_ar6_eeu (m**2): 2752803536896.0
+(child) area_world_ar6_eio (m**2): 11200507723776.0
+(child) area_world_ar6_ena (m**2): 5380365692928.0
+(child) area_world_ar6_epo (m**2): 32157801586688.0
+(child) area_world_ar6_esaf (m**2): 4117637611520.0
+(child) area_world_ar6_esb (m**2): 5505607073792.0
+(child) area_world_ar6_gic (m**2): 4894653059072.0
+(child) area_world_ar6_mdg (m**2): 2261589762048.0
+(child) area_world_ar6_med (m**2): 6896407560192.0
+(child) area_world_ar6_nao (m**2): 23789741740032.0
+(child) area_world_ar6_nau (m**2): 4488348696576.0
+(child) area_world_ar6_nca (m**2): 2949268054016.0
+(child) area_world_ar6_neaf (m**2): 3259675467776.0
+(child) area_world_ar6_nen (m**2): 7646919892992.0
+(child) area_world_ar6_nes (m**2): 3331395624960.0
+(child) area_world_ar6_neu (m**2): 5158765350912.0
+(child) area_world_ar6_npo (m**2): 50733351677952.0
+(child) area_world_ar6_nsa (m**2): 5311394439168.0
+(child) area_world_ar6_nwn (m**2): 7406678114304.0
+(child) area_world_ar6_nws (m**2): 3082625572864.0
+(child) area_world_ar6_nz (m**2): 4629259763712.0
+(child) area_world_ar6_rar (m**2): 8012742387712.0
+(child) area_world_ar6_rfe (m**2): 4968579465216.0
+(child) area_world_ar6_sah (m**2): 11201419673600.0
+(child) area_world_ar6_sam (m**2): 2917041692672.0
+(child) area_world_ar6_sao (m**2): 18532903849984.0
+(child) area_world_ar6_sas (m**2): 5272980242432.0
+(child) area_world_ar6_sau (m**2): 4941610397696.0
+(child) area_world_ar6_sca (m**2): 3661752131584.0
+(child) area_world_ar6_sea (m**2): 16278613680128.0
+(child) area_world_ar6_seaf (m**2): 3379397754880.0
+(child) area_world_ar6_ses (m**2): 5114471940096.0
+(child) area_world_ar6_sio (m**2): 18299522285568.0
+(child) area_world_ar6_soo (m**2): 51274313166848.0
+(child) area_world_ar6_spo (m**2): 51058314264576.0
+(child) area_world_ar6_ssa (m**2): 2822577721344.0
+(child) area_world_ar6_sws (m**2): 2710613823488.0
+(child) area_world_ar6_tib (m**2): 2135586250752.0
+(child) area_world_ar6_waf (m**2): 4118574891008.0
+(child) area_world_ar6_wan (m**2): 5032408137728.0
+(child) area_world_ar6_wca (m**2): 5109784494080.0
+(child) area_world_ar6_wce (m**2): 4001962094592.0
+(child) area_world_ar6_wna (m**2): 3211216408576.0
+(child) area_world_ar6_wsaf (m**2): 4759724851200.0
+(child) area_world_ar6_wsb (m**2): 4325834129408.0
+(child) area_world_el_nino_n3.4 (m**2): 6976708116480.0
+(child) area_world_land (m**2): 152519909048320.0
+(child) area_world_north_atlantic_ocean (m**2): 39226728891038.67
+(child) area_world_northern_hemisphere (m**2): 255004775251968.0
+(child) area_world_northern_hemisphere_land (m**2): 104430768543764.64
+(child) area_world_northern_hemisphere_ocean (m**2): 150574006703889.72
+(child) area_world_ocean (m**2): 357489656725504.0
+(child) area_world_southern_hemisphere (m**2): 255004775251968.0
+(child) area_world_southern_hemisphere_land (m**2): 48089142331487.56
+(child) area_world_southern_hemisphere_ocean (m**2): 206915632873228.12
+(child) associated_files: baseURL: http://cmip-pcmdi.llnl.gov/CMIP5/dataLocation gridspecFile: gridspec_atmos_fx_FGOALS-g2_abrupt4xCO2_r0i0p0.nc areacella: areacella_fx_FGOALS-g2_abrupt4xCO2_r0i0p0.nc
+(child) branch_time: 171185.0
+(child) calendar: 365_day
+(child) cell_measures: area: areacella
+(child) cmor_version: 2.7.1
+(child) comment: at the top of the atmosphere (to be compared with satellite measurements)
+(child) contact: Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn
+(child) creation_date: 2012-02-18T05:36:37Z
+(child) crunch_contact: Zebedee Nicholls <zebedee.nicholls@climate-energy-college.org>, Jared Lewis <jared.lewis@climate-energy-college.org>, Malte Meinshausen <malte.meinshausen@unimelb.edu.au>
+(child) crunch_netcdf_scm_version: 2.0.0rc7+6.g10cfe500 (more info at gitlab.com/netcdf-scm/netcdf-scm)
+(child) crunch_netcdf_scm_weight_kwargs: {"regions": ["World", "World|Northern Hemisphere", "World|Southern Hemisphere", "World|Land", "World|Ocean", "World|Northern Hemisphere|Land", "World|Southern Hemisphere|Land", "World|Northern Hemisphere|Ocean", "World|Southern Hemisphere|Ocean", "World|El Nino N3.4", "World|North Atlantic Ocean", "World|AR6|GIC", "World|AR6|NWN", "World|AR6|NEN", "World|AR6|WNA", "World|AR6|CNA", "World|AR6|ENA", "World|AR6|NCA", "World|AR6|SCA", "World|AR6|CAR", "World|AR6|NWS", "World|AR6|NSA", "World|AR6|NES", "World|AR6|SAM", "World|AR6|SWS", "World|AR6|SES", "World|AR6|SSA", "World|AR6|NEU", "World|AR6|WCE", "World|AR6|EEU", "World|AR6|MED", "World|AR6|SAH", "World|AR6|WAF", "World|AR6|CAF", "World|AR6|NEAF", "World|AR6|SEAF", "World|AR6|WSAF", "World|AR6|ESAF", "World|AR6|MDG", "World|AR6|RAR", "World|AR6|WSB", "World|AR6|ESB", "World|AR6|RFE", "World|AR6|WCA", "World|AR6|ECA", "World|AR6|TIB", "World|AR6|EAS", "World|AR6|ARP", "World|AR6|SAS", "World|AR6|SEA", "World|AR6|NAU", "World|AR6|CAU", "World|AR6|EAU", "World|AR6|SAU", "World|AR6|NZ", "World|AR6|EAN", "World|AR6|WAN", "World|AR6|ARO", "World|AR6|NPO", "World|AR6|EPO", "World|AR6|SPO", "World|AR6|NAO", "World|AR6|EAO", "World|AR6|SAO", "World|AR6|ARS", "World|AR6|BOB", "World|AR6|EIO", "World|AR6|SIO", "World|AR6|SOO"], "cell_weights": null}
+(child) crunch_source_files: Files: ['/cmip5/abrupt4xCO2/Amon/rlut/FGOALS-g2/r6i1p1/rlut_Amon_FGOALS-g2_abrupt4xCO2_r6i1p1_047001-047512.nc']; areacella: ['/cmip5/abrupt4xCO2/fx/areacella/FGOALS-g2/r0i0p0/areacella_fx_FGOALS-g2_abrupt4xCO2_r0i0p0.nc']; sftlf: ['/cmip5/abrupt4xCO2/fx/sftlf/FGOALS-g2/r0i0p0/sftlf_fx_FGOALS-g2_abrupt4xCO2_r0i0p0.nc']
+(child) experiment: abrupt 4XCO2
+(child) experiment_id: abrupt4xCO2
+(child) forcing: GHG (GHG includes quadrupled CO2 only)
+(child) frequency: mon
+(child) history: Original Name is FLUTOA.
+(child) initialization_method: 1
+(child) institute_id: LASG-CESS
+(child) institution: IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)
+(child) land_fraction: 0.29905304498242513
+(child) land_fraction_northern_hemisphere: 0.40952475670534993
+(child) land_fraction_southern_hemisphere: 0.18858134042380617
+(child) model_id: FGOALS_g2
+(child) modeling_realm: atmos
+(child) netcdf-scm crunched file: cmip5/abrupt4xCO2/Amon/rlut/FGOALS-g2/r6i1p1/netcdf-scm_rlut_Amon_FGOALS-g2_abrupt4xCO2_r6i1p1_047001-047512.nc
+(child) parent_experiment: pre-industrial control
+(child) parent_experiment_id: piControl
+(child) parent_experiment_rip: r1i1p1
+(child) physics_version: 1
+(child) product: output
+(child) project_id: CMIP5
+(child) realization: 6
+(child) references: http://www.lasg.ac.cn/FGOALS/CMIP5
+(child) source: FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)
+(child) table_id: Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1
+(child) title: FGOALS_g2 model output prepared for CMIP5 abrupt 4XCO2
+(child) tracking_id: 8ca924f1-19d6-4f3f-9307-0e841c7c93b2
+(normalisation) Conventions: CF-1.7
+(normalisation) area_world (m**2): 510009550503936.0
+(normalisation) area_world_ar6_aro (m**2): 5868796430336.0
+(normalisation) area_world_ar6_arp (m**2): 3667432300544.0
+(normalisation) area_world_ar6_ars (m**2): 2817357824000.0
+(normalisation) area_world_ar6_bob (m**2): 1508046897152.0
+(normalisation) area_world_ar6_caf (m**2): 5296489889792.0
+(normalisation) area_world_ar6_car (m**2): 3313616879616.0
+(normalisation) area_world_ar6_cau (m**2): 4211365478400.0
+(normalisation) area_world_ar6_cna (m**2): 3344675651584.0
+(normalisation) area_world_ar6_ean (m**2): 15652625895424.0
+(normalisation) area_world_ar6_eao (m**2): 10140940902400.0
+(normalisation) area_world_ar6_eas (m**2): 9338670841856.0
+(normalisation) area_world_ar6_eau (m**2): 1968660758528.0
+(normalisation) area_world_ar6_eca (m**2): 2870964944896.0
+(normalisation) area_world_ar6_eeu (m**2): 2752803536896.0
+(normalisation) area_world_ar6_eio (m**2): 11200507723776.0
+(normalisation) area_world_ar6_ena (m**2): 5380365692928.0
+(normalisation) area_world_ar6_epo (m**2): 32157801586688.0
+(normalisation) area_world_ar6_esaf (m**2): 4117637611520.0
+(normalisation) area_world_ar6_esb (m**2): 5505607073792.0
+(normalisation) area_world_ar6_gic (m**2): 4894653059072.0
+(normalisation) area_world_ar6_mdg (m**2): 2261589762048.0
+(normalisation) area_world_ar6_med (m**2): 6896407560192.0
+(normalisation) area_world_ar6_nao (m**2): 23789741740032.0
+(normalisation) area_world_ar6_nau (m**2): 4488348696576.0
+(normalisation) area_world_ar6_nca (m**2): 2949268054016.0
+(normalisation) area_world_ar6_neaf (m**2): 3259675467776.0
+(normalisation) area_world_ar6_nen (m**2): 7646919892992.0
+(normalisation) area_world_ar6_nes (m**2): 3331395624960.0
+(normalisation) area_world_ar6_neu (m**2): 5158765350912.0
+(normalisation) area_world_ar6_npo (m**2): 50733351677952.0
+(normalisation) area_world_ar6_nsa (m**2): 5311394439168.0
+(normalisation) area_world_ar6_nwn (m**2): 7406678114304.0
+(normalisation) area_world_ar6_nws (m**2): 3082625572864.0
+(normalisation) area_world_ar6_nz (m**2): 4629259763712.0
+(normalisation) area_world_ar6_rar (m**2): 8012742387712.0
+(normalisation) area_world_ar6_rfe (m**2): 4968579465216.0
+(normalisation) area_world_ar6_sah (m**2): 11201419673600.0
+(normalisation) area_world_ar6_sam (m**2): 2917041692672.0
+(normalisation) area_world_ar6_sao (m**2): 18532903849984.0
+(normalisation) area_world_ar6_sas (m**2): 5272980242432.0
+(normalisation) area_world_ar6_sau (m**2): 4941610397696.0
+(normalisation) area_world_ar6_sca (m**2): 3661752131584.0
+(normalisation) area_world_ar6_sea (m**2): 16278613680128.0
+(normalisation) area_world_ar6_seaf (m**2): 3379397754880.0
+(normalisation) area_world_ar6_ses (m**2): 5114471940096.0
+(normalisation) area_world_ar6_sio (m**2): 18299522285568.0
+(normalisation) area_world_ar6_soo (m**2): 51274313166848.0
+(normalisation) area_world_ar6_spo (m**2): 51058314264576.0
+(normalisation) area_world_ar6_ssa (m**2): 2822577721344.0
+(normalisation) area_world_ar6_sws (m**2): 2710613823488.0
+(normalisation) area_world_ar6_tib (m**2): 2135586250752.0
+(normalisation) area_world_ar6_waf (m**2): 4118574891008.0
+(normalisation) area_world_ar6_wan (m**2): 5032408137728.0
+(normalisation) area_world_ar6_wca (m**2): 5109784494080.0
+(normalisation) area_world_ar6_wce (m**2): 4001962094592.0
+(normalisation) area_world_ar6_wna (m**2): 3211216408576.0
+(normalisation) area_world_ar6_wsaf (m**2): 4759724851200.0
+(normalisation) area_world_ar6_wsb (m**2): 4325834129408.0
+(normalisation) area_world_el_nino_n3.4 (m**2): 6976708116480.0
+(normalisation) area_world_land (m**2): 152519909048320.0
+(normalisation) area_world_north_atlantic_ocean (m**2): 39226728891038.67
+(normalisation) area_world_northern_hemisphere (m**2): 255004775251968.0
+(normalisation) area_world_northern_hemisphere_land (m**2): 104430768543764.64
+(normalisation) area_world_northern_hemisphere_ocean (m**2): 150574006703889.72
+(normalisation) area_world_ocean (m**2): 357489656725504.0
+(normalisation) area_world_southern_hemisphere (m**2): 255004775251968.0
+(normalisation) area_world_southern_hemisphere_land (m**2): 48089142331487.56
+(normalisation) area_world_southern_hemisphere_ocean (m**2): 206915632873228.12
+(normalisation) associated_files: baseURL: http://cmip-pcmdi.llnl.gov/CMIP5/dataLocation gridspecFile: gridspec_atmos_fx_FGOALS-g2_piControl_r0i0p0.nc areacella: areacella_fx_FGOALS-g2_piControl_r0i0p0.nc
+(normalisation) branch_time: 0.0
+(normalisation) calendar: 365_day
+(normalisation) cell_measures: area: areacella
+(normalisation) cmor_version: 2.7.1
+(normalisation) comment: at the top of the atmosphere (to be compared with satellite measurements)
+(normalisation) contact: Dr. Tianjun ZHOU, Email: zhoutj@lasg.iap.ac.cn
+(normalisation) crunch_contact: Zebedee Nicholls <zebedee.nicholls@climate-energy-college.org>, Jared Lewis <jared.lewis@climate-energy-college.org>, Malte Meinshausen <malte.meinshausen@unimelb.edu.au>
+(normalisation) crunch_netcdf_scm_version: 2.0.0rc7+6.g10cfe500 (more info at gitlab.com/netcdf-scm/netcdf-scm)
+(normalisation) crunch_netcdf_scm_weight_kwargs: {"regions": ["World", "World|Northern Hemisphere", "World|Southern Hemisphere", "World|Land", "World|Ocean", "World|Northern Hemisphere|Land", "World|Southern Hemisphere|Land", "World|Northern Hemisphere|Ocean", "World|Southern Hemisphere|Ocean", "World|El Nino N3.4", "World|North Atlantic Ocean", "World|AR6|GIC", "World|AR6|NWN", "World|AR6|NEN", "World|AR6|WNA", "World|AR6|CNA", "World|AR6|ENA", "World|AR6|NCA", "World|AR6|SCA", "World|AR6|CAR", "World|AR6|NWS", "World|AR6|NSA", "World|AR6|NES", "World|AR6|SAM", "World|AR6|SWS", "World|AR6|SES", "World|AR6|SSA", "World|AR6|NEU", "World|AR6|WCE", "World|AR6|EEU", "World|AR6|MED", "World|AR6|SAH", "World|AR6|WAF", "World|AR6|CAF", "World|AR6|NEAF", "World|AR6|SEAF", "World|AR6|WSAF", "World|AR6|ESAF", "World|AR6|MDG", "World|AR6|RAR", "World|AR6|WSB", "World|AR6|ESB", "World|AR6|RFE", "World|AR6|WCA", "World|AR6|ECA", "World|AR6|TIB", "World|AR6|EAS", "World|AR6|ARP", "World|AR6|SAS", "World|AR6|SEA", "World|AR6|NAU", "World|AR6|CAU", "World|AR6|EAU", "World|AR6|SAU", "World|AR6|NZ", "World|AR6|EAN", "World|AR6|WAN", "World|AR6|ARO", "World|AR6|NPO", "World|AR6|EPO", "World|AR6|SPO", "World|AR6|NAO", "World|AR6|EAO", "World|AR6|SAO", "World|AR6|ARS", "World|AR6|BOB", "World|AR6|EIO", "World|AR6|SIO", "World|AR6|SOO"], "cell_weights": null}
+(normalisation) crunch_source_files: Files: ['/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_020101-021012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_021101-022012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_022101-023012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_023101-024012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_024101-025012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_025101-026012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_026101-027012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_027101-028012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_028101-029012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_029101-030012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_030101-031012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_031101-032012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_032101-033012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_033101-034012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_034101-035012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_035101-036012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_036101-037012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_037101-038012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_038101-039012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_039101-040012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_040101-041012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_041101-042012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_042101-043012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_043101-044012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_044101-045012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_045101-046012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_046101-047012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_047101-048012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_048101-049012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_049101-050012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_050101-051012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_051101-052012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_052101-053012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_053101-054012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_054101-055012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_055101-056012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_056101-057012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_057101-058012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_058101-059012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_059101-060012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_060101-061012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_061101-062012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_062101-063012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_063101-064012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_064101-065012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_065101-066012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_066101-067012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_067101-068012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_068101-069012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_069101-070012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_070101-071012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_071101-072012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_072101-073012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_073101-074012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_074101-075012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_075101-076012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_076101-077012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_077101-078012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_078101-079012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_079101-080012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_080101-081012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_081101-082012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_082101-083012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_083101-084012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_084101-085012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_085101-086012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_086101-087012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_087101-088012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_088101-089012.nc', '/cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/rlut_Amon_FGOALS-g2_piControl_r1i1p1_089101-090012.nc']; areacella: ['/cmip5/piControl/fx/areacella/FGOALS-g2/r0i0p0/areacella_fx_FGOALS-g2_piControl_r0i0p0.nc']; sftlf: ['/cmip5/piControl/fx/sftlf/FGOALS-g2/r0i0p0/sftlf_fx_FGOALS-g2_piControl_r0i0p0.nc']
+(normalisation) experiment: pre-industrial control
+(normalisation) experiment_id: piControl
+(normalisation) forcing: N/A
+(normalisation) frequency: mon
+(normalisation) history: Original Name is FLUTOA.
+(normalisation) initialization_method: 1
+(normalisation) institute_id: LASG-CESS
+(normalisation) institution: IAP (Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China) and THU (Tsinghua University)
+(normalisation) land_fraction: 0.29905304498242513
+(normalisation) land_fraction_northern_hemisphere: 0.40952475670534993
+(normalisation) land_fraction_southern_hemisphere: 0.18858134042380617
+(normalisation) model_id: FGOALS_g2
+(normalisation) modeling_realm: atmos
+(normalisation) netcdf-scm crunched file: cmip5/piControl/Amon/rlut/FGOALS-g2/r1i1p1/netcdf-scm_rlut_Amon_FGOALS-g2_piControl_r1i1p1_020101-090012.nc
+(normalisation) parent_experiment: N/A
+(normalisation) parent_experiment_id: N/A
+(normalisation) parent_experiment_rip: N/A
+(normalisation) physics_version: 1
+(normalisation) product: output
+(normalisation) project_id: CMIP5
+(normalisation) realization: 1
+(normalisation) references: http://www.lasg.ac.cn/FGOALS/CMIP5
+(normalisation) source: FGOALS_g2 2011 atmosphere: GAMIL (gamil2, 128x60L26); ocean: LICOM (licom2, 360x196L30); ice: CICE (cice4_lasg, 360x196L4); land: CLM (clm3, 128x60)
+(normalisation) table_id: Table Amon (26 July 2011) 976b7fd1d9e1be31dddd28f5dc79b7a1
+(normalisation) title: FGOALS_g2 model output prepared for CMIP5 pre-industrial control
+normalisation method: 21-yr-running-mean
+
+&THISFILE_SPECIFICATIONS
+    THISFILE_DATACOLUMNS = 69
+    THISFILE_DATAROWS = 6
+    THISFILE_FIRSTYEAR = 470
+    THISFILE_LASTYEAR = 475
+    THISFILE_ANNUALSTEPS = 1
+    THISFILE_DATTYPE = 'MAG'
+    THISFILE_REGIONMODE = 'NONE'
+    THISFILE_TIMESERIESTYPE = 'AVERAGE_YEAR_MID_YEAR'
+    THISFILE_FIRSTDATAROW = 244
+/
+
+   VARIABLE                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut                rlut
+       TODO                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET                 SET
+      UNITS          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2          W_msuper-2
+      YEARS               WORLD                  NH                  SH                LAND               OCEAN              NHLAND              SHLAND             NHOCEAN             SHOCEAN                 N34                 AMV             AR6-GIC             AR6-NWN             AR6-NEN             AR6-WNA             AR6-CNA             AR6-ENA             AR6-NCA             AR6-SCA             AR6-CAR             AR6-NWS             AR6-NSA             AR6-NES             AR6-SAM             AR6-SWS             AR6-SES             AR6-SSA             AR6-NEU             AR6-WCE             AR6-EEU             AR6-MED             AR6-SAH             AR6-WAF             AR6-CAF            AR6-NEAF            AR6-SEAF            AR6-WSAF            AR6-ESAF             AR6-MDG             AR6-RAR             AR6-WSB             AR6-ESB             AR6-RFE             AR6-WCA             AR6-ECA             AR6-TIB             AR6-EAS             AR6-ARP             AR6-SAS             AR6-SEA             AR6-NAU             AR6-CAU             AR6-EAU             AR6-SAU              AR6-NZ             AR6-EAN             AR6-WAN             AR6-ARO             AR6-NPO             AR6-EPO             AR6-SPO             AR6-NAO             AR6-EAO             AR6-SAO             AR6-ARS             AR6-BOB             AR6-EIO             AR6-SIO             AR6-SOO
+        470        -5.55856e+00        -5.43034e+00        -5.68679e+00        -4.88016e+00        -5.84800e+00        -4.71054e+00        -5.24850e+00        -5.92956e+00        -5.78866e+00        -5.21444e+00        -6.32548e+00        -2.53439e+00        -3.46798e+00        -2.18504e+00        -2.08646e+00        -1.44444e+00        -3.75851e+00        -2.85216e+00        -9.60296e+00        -1.01412e+01        -7.11139e+00        -7.17029e+00        -4.67408e+00        -5.29020e+00        -2.86856e+00        -6.77031e+00        -4.69734e+00        -2.81856e+00        -3.92326e+00        -4.23658e+00        -5.84379e+00        -7.73244e+00        -8.00380e+00        -7.80117e+00        -9.68171e+00        -9.39162e+00        -4.98561e+00        -2.97562e+00        -6.99734e+00        -1.84050e+00        -1.26554e+00        -2.13214e+00        -3.60320e+00        -4.35092e+00        -3.43988e+00        -4.41156e+00        -7.09663e+00        -6.17937e+00        -7.81055e+00        -8.90853e+00        -9.29362e+00        -1.34185e+01        -6.98486e+00        -5.20923e+00        -4.37711e+00        -1.67393e+00        -2.68806e+00        -1.37879e+00        -5.87483e+00        -5.37621e+00        -6.06324e+00        -6.07118e+00        -7.06695e+00        -6.08096e+00        -7.47467e+00        -6.48987e+00        -9.16227e+00        -5.88563e+00        -4.75735e+00
+        471        -3.90216e+00        -3.90949e+00        -3.89483e+00        -2.23387e+00        -4.61392e+00        -2.31480e+00        -2.05811e+00        -5.01549e+00        -4.32170e+00        -1.08696e+01        -5.06764e+00        -2.16380e+00        -3.15761e+00        -4.43622e-01        -3.26866e+00        -5.81839e-01        -2.03998e+00        -5.61598e+00        -4.46042e+00        -7.14297e+00        -4.27411e+00        -2.75192e+00        -7.17199e+00        -2.89962e+00        -3.51706e+00        -3.42258e+00        -4.09853e+00        -1.99428e+00        -2.26097e+00        -3.63887e+00        -3.10205e+00        -6.24161e+00        -4.74680e+00        -5.40885e+00        -4.56985e+00        -3.30563e+00        -5.25894e+00        -2.20654e+00        -5.55186e+00        -2.87966e-01        -2.80041e+00         8.74669e-01        -2.05312e+00        -1.71669e+00        -3.24726e-01         1.02609e+00        -1.94071e+00        -5.90610e+00        -3.51755e+00        -5.23307e-01        -2.61733e+00        -9.92184e-01        -1.43782e+00        -1.94495e+00        -2.92833e+00        -9.09504e-01        -1.63490e+00         9.46398e-02        -6.15467e+00        -7.84946e+00        -3.32901e+00        -4.91007e+00        -7.35796e+00        -5.79269e+00        -6.79847e+00        -5.14833e+00         1.79669e-01        -4.74706e+00        -4.47993e+00
+        472        -3.31701e+00        -2.78426e+00        -3.84975e+00        -1.31999e+00        -4.16902e+00        -1.35418e+00        -1.24575e+00        -3.77610e+00        -4.45495e+00        -5.85380e+00        -5.38317e+00         2.88915e-01         2.95991e-01         3.35981e-01        -1.33300e+00        -2.71538e+00        -2.59347e+00        -1.39118e+00        -4.68107e+00        -8.74250e+00        -3.60394e+00        -6.63567e+00        -5.22020e+00        -3.60759e-01        -3.12734e+00        -1.46436e+00        -4.19879e+00        -2.64428e+00         1.77555e-02         1.13089e+00         4.49563e-01        -4.78512e+00        -1.34697e+00        -4.99156e+00        -5.04229e+00        -6.09162e+00        -1.72059e+00         9.97401e-01        -4.54658e+00         2.73626e+00         2.76263e+00         1.52980e+00        -2.02660e-01        -1.50385e+00        -1.27280e+00        -1.05873e+00        -3.77777e+00        -4.65864e+00        -5.78195e+00        -4.33013e+00        -6.58194e+00        -8.02345e-01        -3.36389e+00        -3.06229e+00        -2.05169e+00         5.50515e-01        -4.20880e-02         3.53532e+00        -3.39654e+00        -5.53418e+00        -4.38773e+00        -4.81158e+00        -8.56862e+00        -4.62050e+00        -4.93585e+00        -9.12422e+00        -6.94350e+00        -3.84830e+00        -3.61961e+00
+        473        -2.95530e+00        -2.34901e+00        -3.56158e+00        -4.11526e-03        -4.21439e+00         5.49784e-01        -1.20697e+00        -4.35948e+00        -4.10881e+00        -5.19877e+00        -3.44207e+00         2.58999e-01        -5.46695e-01         7.31885e-01        -1.75077e+00        -4.43304e-01        -1.58477e+00        -5.92126e-01        -1.40963e+00        -3.66409e+00        -4.60691e+00        -6.33162e+00        -5.60131e+00        -2.25917e+00        -2.18390e+00        -2.59413e+00        -3.23871e+00        -2.21274e+00         6.03118e-01        -4.32826e-01         3.03753e+00         3.49390e-01         9.03150e-01        -2.21812e+00        -3.76783e+00        -3.18228e+00        -1.30464e+00         1.47257e+00        -3.06091e+00         2.03711e+00         1.63800e+00         4.55291e+00         7.54228e-01         3.44513e+00         2.62427e+00         4.47578e+00        -2.98272e+00         1.16898e+00        -1.64357e+00        -8.05027e+00        -4.50142e+00        -8.42672e-01        -1.98146e+00        -2.06133e+00        -2.81295e+00        -4.08686e-03        -1.84409e-01         3.66895e+00        -6.82443e+00        -4.29278e+00        -3.76647e+00        -2.86815e+00        -7.49597e+00        -4.64474e+00        -3.78494e+00        -8.55281e+00        -5.68026e+00        -4.54037e+00        -3.25292e+00
+        474        -2.30576e+00        -1.71567e+00        -2.89585e+00         5.24137e-01        -3.51311e+00         9.20317e-01        -3.36229e-01        -3.54387e+00        -3.49073e+00        -1.22891e+01        -4.29643e+00         2.44589e+00         1.46900e+00         3.02693e+00        -9.97011e-01        -1.68943e+00        -1.26269e+00        -1.28316e+00        -1.21645e+00        -6.95285e+00        -4.17387e+00        -4.70428e+00        -3.09326e+00         4.73601e-02        -2.37256e+00        -3.35558e+00        -2.49280e+00        -1.79188e+00        -1.00440e+00        -9.20923e-01         1.43478e+00         1.89907e+00         5.18911e-01        -3.07688e+00        -3.88020e+00        -1.37190e+00        -5.55991e+00        -2.02042e+00        -4.35097e+00         3.71051e+00         8.51058e-01         1.32432e+00         6.77636e-01         3.83543e+00         3.92817e+00         2.66472e+00         4.66711e-01        -1.04916e+00        -3.12747e+00         1.74432e-02         9.83330e-01         5.04493e+00         3.13614e+00         4.80357e-01         6.48752e-02        -1.05029e+00        -9.53976e-02         5.79837e+00        -4.37839e+00        -8.78645e+00        -2.39938e+00        -3.77860e+00        -7.26583e+00        -3.93107e+00        -6.99961e+00        -5.84611e+00         9.98152e-01        -3.25797e+00        -4.13404e+00
+        475        -2.00754e+00        -1.30039e+00        -2.71469e+00         3.24650e-01        -3.00255e+00         7.00937e-01        -4.92507e-01        -2.68842e+00        -3.23115e+00        -6.92088e+00        -3.89784e+00         1.68558e+00        -4.79162e-01         2.42182e+00         1.15894e+00         3.40991e+00         2.15819e+00        -7.42835e-02        -2.91071e+00        -7.60730e+00        -3.21638e+00        -3.57812e+00        -3.26198e+00        -3.24371e-01        -6.06037e-02        -9.50582e-01        -3.03315e+00        -1.09895e+00        -1.11279e-02         1.82076e+00         1.48387e+00        -1.27743e+00        -1.03657e+00        -8.33852e-01        -4.68587e+00        -3.82097e+00        -1.73511e+00         1.49772e+00        -1.63198e+00         4.36087e+00         1.65767e+00         2.05910e+00         6.97739e-01         2.47956e+00         2.18377e+00         4.08636e+00        -4.78525e-01        -2.15033e+00        -3.12002e+00        -3.64442e+00        -1.96191e+00        -5.21541e-01        -2.58383e-02        -1.89889e+00        -2.05102e+00        -1.09907e+00        -3.71274e-01         5.05935e+00        -2.25932e+00        -5.28229e+00        -2.19000e+00        -3.80751e+00        -4.78970e+00        -3.94578e+00        -9.30782e+00        -4.87967e+00        -5.06530e+00        -1.36712e+00        -3.69138e+00
